@@ -8,7 +8,7 @@
 
 body {
   font-size: 14px;
-  background: darkblue url('./background_2.jpg') no-repeat fixed;
+  background: darkblue url('./background.jpg') no-repeat fixed;
   background-size: cover;
 }
 
@@ -60,7 +60,7 @@ section {
 #pf-img img {
   border: 1px solid #ccc;
   border-radius: 50%;
-  box-shadow: 5px 5px #eee;
+  /* box-shadow: 5px 5px #eee; */
 }
 
 /* 왼쪽, 자기 소개 부분 */
