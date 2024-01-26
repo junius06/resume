@@ -8,7 +8,7 @@
 
 body {
   font-size: 14px;
-  background: darkblue url('./background.png') no-repeat fixed;
+  background: darkblue url('./windows.gif') no-repeat fixed;
   background-size: cover;
 }
 
@@ -28,7 +28,7 @@ header {
 
 header h1 {
   margin: 1.2em auto;
-  font-family: 'Courgette', cursive;
+  font-family: 'Courgette', cursive; /* 폰트바꾸자 */
   text-transform: uppercase;
   font-size: 3em;
   letter-spacing: 0.6em;
