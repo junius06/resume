@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<!-- 프로필사진은 CV가 아닌 resume에 붙여서 작성.
+CV는 경력기술서, 업무성과, 핵심역량 등을 적는다.
+resume에서 나의 학력, previous jobs 등 인적사항에 관련하여 간략하게 적는다 (1-2페이지 분량) -->
+<body>
+  <div id="container">
+    <header>
+      <!-- 헤드라인 -->
+      <h1>Curriculum Vitae (경력기술서) </h1>
+      <h2>Previous job description and personal skills</h2>
+    </header>
+    <!-- 내용 -->
+    <main>
+      <!-- 화면을 좌우로 나눔 -->
+      <article id="left"> 
+        <div id="pf-img">
+          <img src="./dev.png" alt="프로필 이미지">
+        </div>
+
+        <!-- 자기 소개 -->
+        <section>
+          <!-- 소개 내용은 <p>와 </p> 사이의 부분을 수정 -->
+          <dt>JOOHEE KIM</dt>
+          <p>I am DevOps Engineer.</p>
+
+          <!-- sns 링크 부분 -->
+          <!-- href="" 부분의 링크와 내용을 수정 -->
+          <ul id="sns">
+            <li>
+              <i class="fa fa-address-card" aria-hidden="true"></i>
+              <a>South Korea</a>              
+            </li>
+            <li>
+              <i class="fa fa-mobile" aria-hidden="true"></i>
+              <a>+82 10.6218.5079</a>              
+            </li>
+            <li>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:joohee6218@gmail.com">joohee6218@gmail.com</a>              
+            </li>
+            <li>
+              <i class="fab fa-github" aria-hidden="true"></i>
+              <a href="https://github.com/junius06/">junius06.github</a>              
+            </li>
+            <li>
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+              <a href="https://www.linkedin.com/in/joohee-kim-7a6582266/">junius06.linkedin</a>
+            </li>
+            </ul>
+        </section>
+        <section>
+          <!-- 공백만들기 -->
+          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </section>
+        <section>
+          <h2>Work Experiences</h2>
+          <!-- 공백만들기 -->
+        </section>
+      </article>
+
+      <artile id="right">
+        <section>
+          <h2>License and Certificate</h2>
+          <!-- 자격증, 영어점수, 자동차면허증 등 -->
+          <p>2023. CKA</p>
+          <p>2020. </p>
+          <p>2020. </p>
+          <p> ... </p>
+        </section>
+        <section>
+          <h2>Personal Skills</h2>
+          <p>Kubernetes</p> 
+          <!-- 보유 스킬의 활용 레벨을 알 수 있도록, 맨 아래에 어느 정도로 사용할 수 있다를 적어놓고 클릭시 설명으로 이동하도록 수정 -->
+          <!-- 스킬들에 대한 아이콘을 넣자 -->
+        </section>
+        <section>
+          <!-- 경력 -->
+          <h3>CPLABS</h3>
+          <dl>
+            <dt>Period            : 2023.04 ~ </dt> <!-- 행의 너비 맞추기 -->
+            <dt>Position          : Pro</dt>
+            <dt>Department        : DevOps Team</dt>
+            <dt>Responsibilities  : DevOps Engineer</dt>
+            <dd>description</dd>
+          </dl>
+          <h3>고은정보기술(주)</h3>
+          <dl>
+            <dt>Period            : 2020.03 ~ 2022.06</dt>
+            <dt>Position          : Associate</dt>
+            <dt>Department        : Technical Service</dt>
+            <dt>Responsibilities  : Server Engineer</dt>
+          </dl>
+        </section>
+        <section>
+          <h2>Skills</h2>
+          <!-- 내가 다룰 수 있는 기술의 이미지를 만들어 넣자! -->
+          <dl>
+            <dt>Dev</dt>
+            <dd>Java</dd>
+            <dd>Python</dd>
+          </dl>
+          <dl>
+            <dt>Ops</dt>
+            <dd>Linux</dd>
+            <dd>Network</dd>
+          </dl>
+
+          <p>HTML/CSS</p>
+          <p>Javascritpt</p>
+          <p>React</p>
+          <p>Github</p>
+        </section>
+      </artile>
+    </main>
+  </div>
+</body>
+</html>
